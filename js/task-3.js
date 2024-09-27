@@ -4,10 +4,11 @@ const profile = {
 playTime: 300,
 
 changeUsername(newName){
-  for(const nave in this.username)
-  profile.username = newName;
+  this.username = newName;
 },
+
 updatePlayTime(hours) {
+
   this.playTime += hours;
 },
 getInfo() {
